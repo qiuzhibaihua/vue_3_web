@@ -1,0 +1,11 @@
+* { box-sizing: border-box;
+    -webkit-tap-highlight-color:rgba(0,0,0,0)}
+*:before, *:after {box-sizing: border-box}
+html,body { margin: 0; padding: 0; font-family: Helvetica,Heiti, Heiti SC, DroidSans, DroidSansFallback, Arial, 'Microsoft Yahei';  }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, span, a { margin: 0; padding: 0; }
+body {background: rgba(0,0,0,.05);}
+h1,h2,h3,h4,h5,h6,input{ font-size: inherit; }
+ul, ol { padding-left: 0; list-style-type: none; }
+img { border: 0; max-width: 100%; }
+em { font-style: normal; }
+a{-moz-user-focus:none;-moz-user-select:none;-webkit-tap-highlight-color: rgba(255, 255, 255, 0); -webkit-user-select: none;}
