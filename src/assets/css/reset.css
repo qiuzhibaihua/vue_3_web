@@ -9,3 +9,28 @@ ul, ol { padding-left: 0; list-style-type: none; }
 img { border: 0; max-width: 100%; }
 em { font-style: normal; }
 a{-moz-user-focus:none;-moz-user-select:none;-webkit-tap-highlight-color: rgba(255, 255, 255, 0); -webkit-user-select: none;}
+
+/* 公共样式 */
+.el-header, .el-footer {
+    background-color: #B3C0D1;
+    color: #333;
+    text-align: center;
+    line-height: 60px;
+  }
+  /* 单行省略 */
+.text-ellipsis{
+    max-width: 100%;
+    overflow: hidden!important;
+    text-overflow: ellipsis!important;
+    white-space: nowrap!important;
+    word-wrap: normal!important;
+}
+  /* 多行省略 */
+.text-ellipsis-twoline{
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  -moz-box-orient: vertical;
+}

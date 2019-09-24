@@ -1,0 +1,39 @@
+{
+    "data": {
+        "router": [
+           
+                    {
+                        "name": "Dashboard",
+                        "url": "/dashboard",
+                        "redirect": "",
+                        "title": "首页",
+                        "icon": "home",
+                        "children": null
+                    },
+                    {
+                        "name": "auditManage",
+                        "url": "/auditManage",
+                        "redirect": "",
+                        "title": "审核",
+                        "icon": "auditIcon",
+                        "children": [
+                            {
+                                "name": "partnerReview",
+                                "url": "partnerReview",
+                                "redirect": "",
+                                "title": "合作商审核",
+                                "children": [
+                                    {
+                                        "name": "partnerReview1",
+                                        "url": "partnerReview1",
+                                        "redirect": "",
+                                        "title": "合作商审核1",
+                                        "children": null
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+        ]
+    }
+}
