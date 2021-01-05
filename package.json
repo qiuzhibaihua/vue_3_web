@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "animate.css": "^3.7.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "better-scroll": "^1.12.6",
     "cytoscape": "^3.2.20",
     "cytoscape-cola": "^2.3.0",
