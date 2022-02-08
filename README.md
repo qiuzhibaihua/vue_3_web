@@ -19,4 +19,5 @@ _mix: index.js 公用文件
 3: 解决vuex 数据刷新消失 详细见App.vue 利用sessionStorage在页面刷新前将vuex数据保存 重新加载的时候再将数据存入vuex中
 4: 图片懒加载 详细见_min index.js  运用 <img :lazy="uri"/>
 
-分支1
+分支11
+
